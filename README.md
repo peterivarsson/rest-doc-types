@@ -5,7 +5,7 @@
 
 
 Mark a metod that returns a list so that content in list will shown in the REST documentation Web page.
-------------------------------------------------------------_------------------------------------------
+-------------------------------------------------------------------------------------------------------
 
 I.e. In the Data object for MovieList a link to Movie data object will be shown in Wewb page.
 
@@ -23,4 +23,5 @@ In this case MovieList.
 @DocReturnType(key = "se.peter.ivarsson.rest.doc.domain.MovieList")
 public Response getCurrentMovies(@PathParam(PARAM_CITY_ID) final String cityId,
 :
+
 
