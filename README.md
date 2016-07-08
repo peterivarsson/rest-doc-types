@@ -1,7 +1,7 @@
 # rest-doc-types
 
 
-## DocListType
+### DocListType
 
 Mark a metod that returns a list so that content in list will shown in the REST documentation Web page.
 
@@ -19,8 +19,8 @@ Mark a metod so the real return type will be shown in Web page instead of Respon
 I.e. If the type is Response, show real 'return type' instead. 
 In this case MovieList.
 
- @DocReturnType(key = "se.peter.ivarsson.rest.doc.domain.MovieList")
- public Response getCurrentMovies(@PathParam(PARAM_CITY_ID) final String cityId, ...
- :
+'@DocReturnType(key = "se.peter.ivarsson.rest.doc.domain.MovieList")
+public Response getCurrentMovies(@PathParam(PARAM_CITY_ID) final String cityId, ...
+:'
 
 
